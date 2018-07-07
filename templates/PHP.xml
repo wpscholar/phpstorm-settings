@@ -1,0 +1,11 @@
+<templateSet group="PHP">
+  <template name="pluginheaders" value="/*&#10; * Plugin Name:  $NAME$&#10; * Plugin URI:   $URL$&#10; * Description:  $DESC$&#10; * Version:      1.0&#10; * Author:       Micah Wood&#10; * Author URI:   https://wpscholar.com&#10; * License:      GPL2&#10; * License URI:  https://www.gnu.org/licenses/gpl-2.0.html&#10; * Text Domain:  $TEXTDOMAIN$&#10; * Domain Path:  /languages&#10; */&#10; &#10; $END$" description="WordPress Plugin Headers" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXTDOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
