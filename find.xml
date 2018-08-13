@@ -3,6 +3,7 @@
     <option name="customScope" value="Gutenberg" />
     <option name="defaultScopeName" value="Gutenberg" />
     <option name="SEARCH_SCOPE" value="Gutenberg" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
