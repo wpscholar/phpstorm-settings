@@ -120,6 +120,9 @@
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
