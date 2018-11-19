@@ -8,4 +8,19 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="posttypelabels" value="'labels'       =&gt; array(&#10;    'name'                  =&gt; _x( '$PLURAL$', 'post type general name', '$TEXTDOMAIN$' ),&#10;    'singular_name'         =&gt; _x( '$SINGULAR$', 'post type singular name', '$TEXTDOMAIN$' ),&#10;    'add_new'               =&gt; _x( 'Add New', '$LC_SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'add_new_item'          =&gt; __( 'Add New $SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'edit_item'             =&gt; __( 'Edit $SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'new_item'              =&gt; __( 'New $SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'view_item'             =&gt; __( 'View $SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'view_items'            =&gt; __( 'View $PLURAL$', '$TEXTDOMAIN$' ),&#10;    'search_items'          =&gt; __( 'Search $PLURAL$', '$TEXTDOMAIN$' ),&#10;    'not_found'             =&gt; __( 'No $LC_PLURAL$ found.', '$TEXTDOMAIN$' ),&#10;    'not_found_in_trash'    =&gt; __( 'No $LC_PLURAL$ found in Trash.', '$TEXTDOMAIN$' ),&#10;    'parent_item_colon'     =&gt; __( 'Parent $SINGULAR$:', '$TEXTDOMAIN$' ), // Hierarchical only&#10;    'all_items'             =&gt; __( 'All $PLURAL$', '$TEXTDOMAIN$' ),&#10;    'archives'              =&gt; __( '$SINGULAR$ Archives', '$TEXTDOMAIN$' ),&#10;    'attributes'            =&gt; __( '$SINGULAR$ Attributes', '$TEXTDOMAIN$' ), // Post type must support 'page-attributes'&#10;    'insert_into_item'      =&gt; __( 'Insert into $LC_SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'upload_to_this_item'   =&gt; __( 'Uploaded to this $LC_SINGULAR$', '$TEXTDOMAIN$' ),&#10;    'featured_image'        =&gt; __( 'Featured Image', '$TEXTDOMAIN$' ),&#10;    'set_featured_image'    =&gt; __( 'Set featured image', '$TEXTDOMAIN$' ),&#10;    'remove_featured_image' =&gt; __( 'Remove featured image', '$TEXTDOMAIN$' ),&#10;    'use_featured_image'    =&gt; __( 'Use featured image', '$TEXTDOMAIN$' ),&#10;    'menu_name'             =&gt; _x( '$PLURAL$', 'admin menu', '$TEXTDOMAIN$' ), // Default is value of 'name'&#10;    'filter_items_list'     =&gt; __( 'Filter $LC_PLURAL$ list', '$TEXTDOMAIN$' ),&#10;    'items_list_navigation' =&gt; __( '$PLURAL$ list navigation', '$TEXTDOMAIN$' ),&#10;    'items_list'            =&gt; __( '$PLURAL$ list', '$TEXTDOMAIN$' ),&#10;    'name_admin_bar'        =&gt; _x( '$SINGULAR$', 'add new on admin bar', '$TEXTDOMAIN$' ),&#10;)," description="WordPress Post Type Labels" toReformat="false" toShortenFQNames="true">
+    <variable name="PLURAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXTDOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SINGULAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LC_SINGULAR" expression="decapitalize(SINGULAR)" defaultValue="" alwaysStopAt="false" />
+    <variable name="LC_PLURAL" expression="decapitalize(PLURAL)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="posttypeargs" value="''" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
