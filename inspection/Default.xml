@@ -1,6 +1,7 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
-  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="CODING_STANDARD" value="Custom" />
+    <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/Sites/LocalSites/dev/app/public/wp-content/mu-plugins/phpcs-standards-wpscholar/WPScholar" />
   </inspection_tool>
 </profile>
