@@ -3,7 +3,9 @@
     <phpmd_settings_migrated />
   </component>
   <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
+    <phpcs_settings>
+      <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;WPScholar;Zend" tool_path="$USER_HOME$/Sites/LocalSites/msumf/app/public/wp-content/themes/uncode/vendor/bin/phpcs" />
+    </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
