@@ -54,4 +54,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="register_rest_field" value="register_rest_field( '$OBJECT_TYPE$', '$ATTRIBUTE$', array(&#10;       'get_callback'    =&gt; $GET_CALLBACK$,&#10;    )&#10;);&#10;&#10;$END$" description="Register a WordPress REST API field" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT_TYPE" expression="" defaultValue="post" alwaysStopAt="true" />
+    <variable name="ATTRIBUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GET_CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
