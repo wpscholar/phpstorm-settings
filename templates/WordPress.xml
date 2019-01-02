@@ -9,9 +9,9 @@
     <variable name="PLUGIN_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PLUGIN_URL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VERSION" expression="" defaultValue="1.0" alwaysStopAt="false" />
-    <variable name="AUTHOR" expression="" defaultValue="Micah Wood" alwaysStopAt="false" />
-    <variable name="AUTHOR_URI" expression="" defaultValue="https://wpscholar.com" alwaysStopAt="false" />
+    <variable name="VERSION" expression="&quot;1.0&quot;" defaultValue="" alwaysStopAt="false" />
+    <variable name="AUTHOR" expression="&quot;Micah Wood&quot;" defaultValue="" alwaysStopAt="false" />
+    <variable name="AUTHOR_URI" expression="&quot;https://wpscholar.com&quot;" defaultValue="" alwaysStopAt="false" />
     <variable name="TEXT_DOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
