@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
     <option name="FONT_SCALE" value="1.0" />
+    <option name="presentationMode" value="true" />
   </component>
 </application>
