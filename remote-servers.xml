@@ -1,0 +1,11 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker (Local by Flywheel)" type="docker">
+      <configuration>
+        <option name="apiUrl" value="https://192.168.95.100:2376" />
+        <option name="certificatesPath" value="$USER_HOME$/.docker/machine/machines/local-by-flywheel" />
+        <option name="machine" value="local-by-flywheel" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
