@@ -15,6 +15,14 @@
               <option name="localPath" value="/tmp" />
               <option name="virtualMachinePath" value="/tmp" />
             </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/Volumes" />
+              <option name="virtualMachinePath" value="/Volumes" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/private" />
+              <option name="virtualMachinePath" value="/private" />
+            </DockerPathMappingImpl>
           </list>
         </option>
       </configuration>
