@@ -5,6 +5,18 @@
         <option name="apiUrl" value="https://192.168.95.100:2376" />
         <option name="certificatesPath" value="$USER_HOME$/.docker/machine/machines/local-by-flywheel" />
         <option name="machine" value="local-by-flywheel" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/Users" />
+              <option name="virtualMachinePath" value="/Users" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/tmp" />
+              <option name="virtualMachinePath" value="/tmp" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
       </configuration>
     </remote-server>
   </component>
