@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern=".rsyncinclude" type="PLAIN_TEXT" />
+      <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping pattern="autoload" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
