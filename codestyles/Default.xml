@@ -1,9 +1,9 @@
 <code_scheme name="Default" version="173">
   <HTMLCodeStyleSettings>
     <option name="HTML_ATTRIBUTE_WRAP" value="0" />
-    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,body" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html" />
   </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
   </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
@@ -23,7 +23,6 @@
     <option name="PHPDOC_USE_FQCN" value="true" />
   </PHPCodeStyleSettings>
   <yaml>
-    <option name="INDENT_SEQUENCE_VALUE" value="true" />
     <option name="SEQUENCE_ON_NEW_LINE" value="true" />
   </yaml>
   <codeStyleSettings language="HTML">
