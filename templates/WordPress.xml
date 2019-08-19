@@ -9,9 +9,9 @@
     <variable name="PLUGIN_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PLUGIN_URL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VERSION" expression="&quot;1.0&quot;" defaultValue="" alwaysStopAt="false" />
-    <variable name="AUTHOR" expression="&quot;Micah Wood&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="AUTHOR_URI" expression="&quot;https://wpscholar.com&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="1.0" alwaysStopAt="false" />
+    <variable name="AUTHOR" expression="" defaultValue="Micah Wood" alwaysStopAt="false" />
+    <variable name="AUTHOR_URI" expression="" defaultValue="https://wpscholar.com" alwaysStopAt="false" />
     <variable name="TEXT_DOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -50,6 +50,14 @@
     <variable name="Singular" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="plural" expression="decapitalize(Plural)" defaultValue="" alwaysStopAt="false" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="register_rest_field" value="register_rest_field( '$OBJECT_TYPE$', '$ATTRIBUTE$', array(&#10;       'get_callback'    =&gt; $GET_CALLBACK$,&#10;    )&#10;);&#10;&#10;$END$" description="Register a WordPress REST API field" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT_TYPE" expression="" defaultValue="post" alwaysStopAt="true" />
+    <variable name="ATTRIBUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GET_CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>

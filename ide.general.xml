@@ -1,6 +1,5 @@
 <application>
   <component name="GeneralSettings">
-    <option name="processCloseConfirmation" value="DISCONNECT" />
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
