@@ -1,11 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="WordPress Only" />
-    <option name="defaultScopeName" value="WordPress Only" />
+    <option name="customScope" value="Bluehost Plugin Only" />
+    <option name="defaultScopeName" value="Bluehost Plugin Only" />
     <option name="preserveCase" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="true" />
-    <option name="SEARCH_SCOPE" value="WordPress Only" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="SEARCH_SCOPE" value="Bluehost Plugin Only" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
