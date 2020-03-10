@@ -9,6 +9,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="ChangesView.Move" />
   <action id="CheckinProject" />
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta p" />
@@ -87,6 +88,7 @@
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="Git.Push" />
+  <action id="GotoAction" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -121,7 +123,7 @@
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="f4" />
@@ -221,6 +223,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.ToggleSplitLayoutChangeAction" />
