@@ -1,5 +1,5 @@
 <templateSet group="WordPress">
-  <template name="e" value="&lt;?php esc_html_e( '$SELECTION$', '$TEXTDOMAIN$' ); ?&gt;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="e" value="&lt;?php esc_html_e( '$SELECTION$', '$TEXTDOMAIN$' ); ?&gt;" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="TEXTDOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />

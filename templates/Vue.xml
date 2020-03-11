@@ -1,0 +1,8 @@
+<templateSet group="Vue">
+  <template name="vue-translate" value="{{__('$SELECTION$', '$TEXTDOMAIN$')}}" description="WordPress Translation function in Vue" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXTDOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
