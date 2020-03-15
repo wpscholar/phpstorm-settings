@@ -4,8 +4,10 @@
       <mapping pattern=".rsyncinclude" type="PLAIN_TEXT" />
       <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping pattern=".distignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env-valid" type="PLAIN_TEXT" />
       <mapping pattern="key" type="PLAIN_TEXT" />
       <mapping pattern="autoload" type="PLAIN_TEXT" />
+      <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
