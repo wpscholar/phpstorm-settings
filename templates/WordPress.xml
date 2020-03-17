@@ -20,11 +20,11 @@
   <template name="themeheaders" value="/*&#10; * Theme Name: $THEME_NAME$&#10; * Theme URI: $THEME_URI$&#10; * Author: $AUTHOR$&#10; * Author URI: $AUTHOR_URI$&#10; * Description: $DESCRIPTION$&#10; * Version: $VERSION$&#10; * Text Domain: $TEXT_DOMAIN$&#10; * Tags: $TAGS$&#10; * License: GNU General Public License v2 or later&#10; * License URI: http://www.gnu.org/licenses/gpl-2.0.html&#10; */&#10;&#10;$END$" description="WordPress Theme Headers" toReformat="false" toShortenFQNames="true">
     <variable name="THEME_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="THEME_URI" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="AUTHOR" expression="" defaultValue="Micah Wood" alwaysStopAt="false" />
-    <variable name="AUTHOR_URI" expression="https://wpscholar.com" defaultValue="https://wpscholar.com" alwaysStopAt="false" />
+    <variable name="AUTHOR" expression="" defaultValue="&quot;Micah Wood&quot;" alwaysStopAt="false" />
+    <variable name="AUTHOR_URI" expression="" defaultValue="&quot;https://wpscholar.com&quot;" alwaysStopAt="false" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VERSION" expression="1.0" defaultValue="1.0" alwaysStopAt="false" />
-    <variable name="TEXT_DOMAIN" expression="fileRelativePath()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="false" />
+    <variable name="TEXT_DOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
