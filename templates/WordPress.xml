@@ -61,4 +61,26 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="btp" value="&lt;!-- wp:template-part {&quot;slug&quot;:&quot;$SLUG$&quot;,&quot;theme&quot;:&quot;$THEME$&quot;} /--&gt;$END$" description="Require a template part in a block-based theme" toReformat="false" toShortenFQNames="true">
+    <variable name="SLUG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
