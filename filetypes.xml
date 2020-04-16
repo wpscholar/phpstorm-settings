@@ -8,6 +8,7 @@
       <mapping pattern="key" type="PLAIN_TEXT" />
       <mapping pattern="autoload" type="PLAIN_TEXT" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
+      <mapping ext="mustache" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
