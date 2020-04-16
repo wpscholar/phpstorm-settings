@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="mustache" type="Handlebars/Mustache" />
       <mapping pattern=".rsyncinclude" type="PLAIN_TEXT" />
       <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping pattern=".distignore" type="PLAIN_TEXT" />
@@ -9,9 +8,7 @@
       <mapping pattern="key" type="PLAIN_TEXT" />
       <mapping pattern="autoload" type="PLAIN_TEXT" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
-      <mapping ext="mustache" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
-      <removed_mapping ext="mustache" type="Handlebars/Mustache" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
