@@ -1,0 +1,18 @@
+<application>
+  <component name="LSPState">
+    <option name="extToServ">
+      <map>
+        <entry key="php">
+          <value>
+            <array>
+              <option value="exe" />
+              <option value="php" />
+              <option value="/usr/local/bin/php" />
+              <option value="vendor/bin/psalm-language-server" />
+            </array>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
