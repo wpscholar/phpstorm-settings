@@ -5,14 +5,18 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="pluginheaders" value="/*&#10; * Plugin Name:  $PLUGIN_NAME$&#10; * Plugin URI:   $PLUGIN_URL$&#10; * Description:  $DESCRIPTION$&#10; * Version:      $VERSION$&#10; * Author:       $AUTHOR$&#10; * Author URI:   $AUTHOR_URI$&#10; * License:      GPL2&#10; * License URI:  https://www.gnu.org/licenses/gpl-2.0.html&#10; * Text Domain:  $TEXT_DOMAIN$&#10; * Domain Path:  /languages&#10; */&#10; &#10; $END$" description="WordPress Plugin Headers" toReformat="false" toShortenFQNames="true">
+  <template name="pluginheaders" value="/**&#10; * $PLUGIN_NAME$&#10; *&#10; * @package           $PACKAGE_NAME$&#10; * @author            $AUTHOR$&#10; * @copyright         $COPYRIGHT$&#10; * @license           GPL2.0-or-later&#10; *&#10; * @wordpress-plugin&#10; * Plugin Name:       $PLUGIN_NAME$&#10; * Plugin URI:        $PLUGIN_URL$&#10; * Description:       $DESCRIPTION$&#10; * Version:           $VERSION$&#10; * Requires PHP:      $PHP_VERSION$&#10; * Requires at least: $WP_VERSION$&#10; * Author:            $AUTHOR$&#10; * Author URI:        $AUTHOR_URI$&#10; * Text Domain:       $TEXT_DOMAIN$&#10; * Domain Path:       /languages&#10; * License:           GPL V2 or later&#10; * License URI:       https://www.gnu.org/licenses/gpl-2.0.html&#10; */&#10; &#10; $END$" description="WordPress Plugin Headers" toReformat="false" toShortenFQNames="true">
     <variable name="PLUGIN_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PACKAGE_NAME" expression="capitalize(camelCase(PLUGIN_NAME))" defaultValue="" alwaysStopAt="false" />
     <variable name="PLUGIN_URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COPYRIGHT" expression="concat(&quot;Copyright &quot;, time(&quot;Y&quot;), &quot; by Micah Wood - All rights reserved.&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VERSION" expression="" defaultValue="1.0" alwaysStopAt="false" />
-    <variable name="AUTHOR" expression="" defaultValue="Micah Wood" alwaysStopAt="false" />
-    <variable name="AUTHOR_URI" expression="" defaultValue="https://wpscholar.com" alwaysStopAt="false" />
-    <variable name="TEXT_DOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="false" />
+    <variable name="AUTHOR" expression="" defaultValue="&quot;Micah Wood&quot;" alwaysStopAt="false" />
+    <variable name="PHP_VERSION" expression="" defaultValue="&quot;5.6&quot;" alwaysStopAt="true" />
+    <variable name="WP_VERSION" expression="" defaultValue="&quot;5.0&quot;" alwaysStopAt="true" />
+    <variable name="AUTHOR_URI" expression="" defaultValue="&quot;https://wpscholar.com&quot;" alwaysStopAt="false" />
+    <variable name="TEXT_DOMAIN" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
