@@ -16,7 +16,7 @@
     <variable name="PHP_VERSION" expression="" defaultValue="&quot;5.6&quot;" alwaysStopAt="true" />
     <variable name="WP_VERSION" expression="" defaultValue="&quot;5.0&quot;" alwaysStopAt="true" />
     <variable name="AUTHOR_URI" expression="" defaultValue="&quot;https://wpscholar.com&quot;" alwaysStopAt="false" />
-    <variable name="TEXT_DOMAIN" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TEXT_DOMAIN" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
