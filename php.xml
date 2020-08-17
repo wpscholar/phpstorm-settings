@@ -7,7 +7,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="05e74b24-9fdd-4ffd-8303-065dca53545e" name="PHP 7.1" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="bd30e8f6-3a98-47a2-8272-414b20ffbcf5" name="devwithlando/php:7.4-fpm-2" home="docker://DATA" debugger_id="php.debugger.XDebug">
+      <interpreter id="bd30e8f6-3a98-47a2-8272-414b20ffbcf5" name="devwithlando/php:7.4-fpm-2" home="docker://DATA" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/lib/php/extensions/no-debug-non-zts-20190902/xdebug.so">
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="devwithlando/php:7.4-fpm-2" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
     </interpreters>
@@ -88,7 +88,11 @@
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/local/lib/php" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.9.6">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="OAuth" />
@@ -139,6 +143,7 @@
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="tokenizer" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
