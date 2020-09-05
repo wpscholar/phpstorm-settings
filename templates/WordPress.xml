@@ -87,7 +87,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="__" value="{ __('$SELECTION$', '$TEXTDOMAIN$') }" toReformat="false" toShortenFQNames="true">
+  <template name="__" value="{ __('$SELECTION$', '$TEXTDOMAIN$') }" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TEXTDOMAIN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
