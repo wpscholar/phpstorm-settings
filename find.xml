@@ -13,9 +13,9 @@
     <mask>*.mxml</mask>
     <mask>*.json</mask>
     <mask>*.md</mask>
-    <mask>*.scss</mask>
     <mask>*.woff2</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
