@@ -5,8 +5,8 @@
       <mapping pattern=".env-sample" type="PLAIN_TEXT" />
       <mapping pattern=".rsyncinclude" type="PLAIN_TEXT" />
       <mapping pattern="php-extensions" type="PLAIN_TEXT" />
-      <mapping pattern="key" type="PLAIN_TEXT" />
       <mapping pattern=".cargo-ok" type="PLAIN_TEXT" />
+      <mapping pattern="key" type="PLAIN_TEXT" />
       <mapping pattern=".env-valid" type="PLAIN_TEXT" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
@@ -16,6 +16,7 @@
       <mapping pattern=".distinclude" type="PLAIN_TEXT" />
       <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
