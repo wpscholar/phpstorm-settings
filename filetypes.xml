@@ -10,6 +10,7 @@
       <mapping pattern=".env-valid" type="PLAIN_TEXT" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="autoload" type="PLAIN_TEXT" />
       <mapping pattern=".distignore" type="PLAIN_TEXT" />
       <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
