@@ -2,19 +2,19 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="apple-app-site-association" type="JSON" />
-      <mapping pattern=".env-sample" type="PLAIN_TEXT" />
       <mapping pattern=".rsyncinclude" type="PLAIN_TEXT" />
-      <mapping pattern="php-extensions" type="PLAIN_TEXT" />
       <mapping pattern=".cargo-ok" type="PLAIN_TEXT" />
       <mapping pattern="key" type="PLAIN_TEXT" />
-      <mapping pattern=".env-valid" type="PLAIN_TEXT" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
+      <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
+      <mapping pattern=".distinclude" type="PLAIN_TEXT" />
+      <mapping pattern=".env-sample" type="PLAIN_TEXT" />
+      <mapping pattern="php-extensions" type="PLAIN_TEXT" />
+      <mapping pattern=".env-valid" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="autoload" type="PLAIN_TEXT" />
       <mapping pattern=".distignore" type="PLAIN_TEXT" />
-      <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
-      <mapping pattern=".distinclude" type="PLAIN_TEXT" />
       <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
