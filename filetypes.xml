@@ -10,6 +10,7 @@
       <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping pattern=".distinclude" type="PLAIN_TEXT" />
       <mapping pattern=".env-sample" type="PLAIN_TEXT" />
+      <mapping pattern="alleva-integration.php" type="PLAIN_TEXT" />
       <mapping pattern="php-extensions" type="PLAIN_TEXT" />
       <mapping pattern=".env-valid" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
