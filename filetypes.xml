@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".gitignore-pantheon" type="GitIgnore file" />
       <mapping pattern="apple-app-site-association" type="JSON" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
