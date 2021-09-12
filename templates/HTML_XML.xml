@@ -19,7 +19,17 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="eif" value="&lt;?php endif; ?&gt;$END$" description="PHP Closing If Tag" toReformat="false" toShortenFQNames="true">
+  <template name="endif" value="&lt;?php endif; ?&gt;$END$" description="PHP Closing If Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="else" value="&lt;?php else: ?&gt;$END$" description="PHP Else Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="elseif" value="&lt;?php elseif( $END$ ): ?&gt;" description="PHP Else If Tag" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
