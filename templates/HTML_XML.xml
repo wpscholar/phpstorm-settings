@@ -1,0 +1,12 @@
+<templateSet group="HTML/XML">
+  <template name="fe" value="&lt;?php foreach( $END$ ): ?&gt;" description="PHP Opening Foreach Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="efe" value="&lt;?php endforeach; ?&gt;$END$" description="PHP Opening Foreach Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
