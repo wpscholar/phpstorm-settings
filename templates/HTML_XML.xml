@@ -4,12 +4,22 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="efe" value="&lt;?php endforeach; ?&gt;$END$" description="PHP Opening Foreach Tag" toReformat="false" toShortenFQNames="true">
+  <template name="efe" value="&lt;?php endforeach; ?&gt;$END$" description="PHP Closing Foreach Tag" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="=" value="&lt;?= $END$ ?&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="=" value="&lt;?= $END$ ?&gt;" description="PHP Echo Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="if" value="&lt;?php if( $END$ ): ?&gt;" description="PHP Opening If Tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="eif" value="&lt;?php endif; ?&gt;$END$" description="PHP Closing If Tag" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
