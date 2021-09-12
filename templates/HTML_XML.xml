@@ -9,4 +9,9 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="=" value="&lt;?= $END$ ?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
