@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
+      <mapping pattern="banned_plugins" type="AUTO_DETECTED" />
       <mapping pattern=".gitignore-pantheon" type="GitIgnore file" />
       <mapping pattern="apple-app-site-association" type="JSON" />
       <mapping pattern=".prettierrc" type="JSON" />
