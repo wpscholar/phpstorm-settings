@@ -21,6 +21,7 @@
     <mask>*.css</mask>
     <mask>*.scss</mask>
     <mask>composer.json</mask>
+    <mask>*.yml</mask>
     <mask>*.php</mask>
   </component>
 </application>
