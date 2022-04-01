@@ -14,17 +14,13 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.4">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.4.8/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.4.8/bin/php" path_separator=":" version="7.4.8">
-          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/ext-debug.ini, /usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.4/7.4.27/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.4/7.4.27/bin/php" path_separator=":" version="7.4.27">
+          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/error_log.ini, /usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.4/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.4.8/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.4/7.4.27/share/php@7.4/pear" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.9.4">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="FFI" />
@@ -84,7 +80,6 @@
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
