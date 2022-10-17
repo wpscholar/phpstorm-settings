@@ -3,10 +3,6 @@
     <option name="COLLAPSE_METHODS" value="true" />
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
-  <component name="DefaultFont">
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
-  </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
