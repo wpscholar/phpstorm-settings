@@ -21,11 +21,11 @@
       <mapping pattern=".distignore" type="PLAIN_TEXT" />
       <mapping pattern="alleva-integration.php" type="PLAIN_TEXT" />
       <mapping ext="secret" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern=".yamllint" type="YAML" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
