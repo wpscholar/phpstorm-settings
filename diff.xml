@@ -30,6 +30,7 @@
       <entry key="Default">
         <PlaceSettings>
           <option name="EXPAND_BY_DEFAULT" value="false" />
+          <option name="HIGHLIGHT_POLICY" value="BY_CHAR" />
         </PlaceSettings>
       </entry>
     </option>
