@@ -26,6 +26,7 @@
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern=".yamllint" type="YAML" />
+      <removed_mapping ext="log" approved="true" type="Log" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
