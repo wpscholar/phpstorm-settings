@@ -6,6 +6,7 @@
       <mapping pattern=".gitignore-pantheon" type="GitIgnore file" />
       <mapping pattern="apple-app-site-association" type="JSON" />
       <mapping pattern=".prettierrc" type="JSON" />
+      <mapping pattern=".env-constants" type="PLAIN_TEXT" />
       <mapping pattern=".env-invalid" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern=".distinclude" type="PLAIN_TEXT" />
